@@ -4,9 +4,13 @@ main() {
     int c;
 
     c = getchar();
-    while (c != EOF){
+    while ((c = getchar()) != EOF){
         putchar(c);
-        c = getchar();
 
+        /*尝试打印EOF
+        printf("%f",EOF);
+        printf("%d",EOF);
+        putchar(EOF);
+        */
     }
 }
