@@ -7,5 +7,6 @@ main() {
     while (c != EOF){
         putchar(c);
         c = getchar();
+
     }
 }
