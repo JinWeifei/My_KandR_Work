@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-int main() {
-    printf("Hello, World!\n");
-    while
-    return 0;
+main() {
+    int c;
+
+    c = getchar();
+    while (c != EOF){
+        putchar(c);
+        c = getchar();
+    }
 }
