@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "/Users/jwf/CLionProjects/1.5 Character Input and Output/cmake-build-debug/file_copy.c"
+#include "./cmake-build-debug/file_copy.c"
 
 #define IN 1
 #define OUT 2
